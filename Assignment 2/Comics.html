@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .comic-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .comic-item {
+            width: 300px;
+            margin: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .comic-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .comic-item {
+            background-color: rgb(165, 160, 165);
+        }
+        img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1px;
+  width: 298px;
+}
+
+img:hover {
+  box-shadow: 0 0 4px 4px rgba(2, 2, 2, 0.5);
+}
+body {background-color: rgb(221, 208, 203);}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Comic Strip Creator</h1>
+    </header>
+    <nav>
+        <a href="Home.html" active>Home</a>
+        <a href="Comics.html">Comics</a>
+        <a href="User Comic Creator.html">User Comic Creator </a>
+        <a href="PageDesign.html">Design Page</a>
+        <a href="#">Contact</a>
+        <a href="Login_page.html">Log Out</a>
+    </nav>
+    <div class="container">
+        <h2>Latest Comics</h2>
+        <div class="comic-list">
+            <a href="Comic Reading.html" class="comic-item">
+                <img src="Naruto.jpg" alt="Comic 1">
+                <h2>Naruto Uzumaki</h2>
+            </a>
+            <a href="Comic Reading2.html" class="comic-item">
+                <img src="Demon Slayer.jpg" alt="Comic 2">
+                <h2>Demon Slayer</h2>
+            </a>
+            <a href="Comic Reading.html" class="comic-item">
+                <img src="Baki Hanma.jpg" alt="Comic 2">
+                <h2>Baki Hanma</h2>
+            </a>
+            <!-- Add more comic items here -->
+        </div>
+    </div>
+</body>
+</html>
